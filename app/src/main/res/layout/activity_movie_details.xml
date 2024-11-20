@@ -18,7 +18,7 @@
         <ImageView
             android:id="@+id/moviePoster"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="500dp"
             android:scaleType="centerCrop" />
 
         <TextView
@@ -32,11 +32,13 @@
             android:id="@+id/movieYear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="15sp" />
 
         <TextView
             android:id="@+id/movieDetails"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
     </LinearLayout>
 </ScrollView>
